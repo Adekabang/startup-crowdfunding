@@ -12,7 +12,7 @@ type repository struct {
 }
 
 //NewRepository for create user object with db connection
-func NewRepository(db *gorm.DB) *repository {
+func NewRepository(db *gorm.DB) Repository {
 	return &repository{db}
 }
 
