@@ -2,6 +2,7 @@ package user
 
 import "time"
 
+//User entity for user db
 type User struct {
 	ID             int
 	Name           string
